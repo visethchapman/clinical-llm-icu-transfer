@@ -63,3 +63,9 @@ retention* additionally requires the org-level ZDR setting on the provider.
 **Ground truth.** Every cohort patient was transferred, so the correct action
 is **C (Escalate)** for all of them. See `READOUT.md` for why this single-class
 design only measures **sensitivity/recall**, not specificity.
+
+## Author
+
+**Viseth Sean** ([@visethchapman](https://github.com/visethchapman)) — case study
+for Centific. Code licensed under MIT (see `LICENSE`); the MIMIC-III demo dataset
+is provided by PhysioNet under ODbL v1.0.
