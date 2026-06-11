@@ -1,0 +1,21 @@
+# --- secrets: never commit ---
+.env
+*.env
+!.env.example
+*.key
+secrets*
+
+# --- python ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- raw MIMIC-III data (open-access; download via README, do not vendor) ---
+mimic-iii-clinical-database-demo-1.4/
+mimic-demo.zip
+
+# --- assignment brief (not a deliverable) ---
+Candidate_CaseStudy_June*.pdf
+
+# --- os ---
+.DS_Store

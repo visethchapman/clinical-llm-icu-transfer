@@ -1,0 +1,60 @@
+patient_id,model,predicted_action,ground_truth_action,latency_s,parse_success,rationale
+42231_171878,mock-clinician-v1,B,C,0.013,False,My recommendation is option B given the picture.
+10102_164869,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+10076_198503,mock-clinician-v1,B,C,0.012,False,My recommendation is option B given the picture.
+43746_167181,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+43746_167181_2,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+44083_125157,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+44083_131048,mock-clinician-v1,B,C,0.012,True,offline heuristic stand-in
+44083_131048_2,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+44083_198330,mock-clinician-v1,B,C,0.012,True,offline heuristic stand-in
+10120_193924,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+42199_178513,mock-clinician-v1,B,C,0.012,False,My recommendation is option B given the picture.
+10119_157466,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+10119_165436,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+42281_195911,mock-clinician-v1,B,C,0.012,False,My recommendation is option B given the picture.
+10104_177678,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+42135_102203,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+43735_112662,mock-clinician-v1,B,C,0.012,True,offline heuristic stand-in
+10035_110244,mock-clinician-v1,B,C,0.01,True,offline heuristic stand-in
+10045_126949,mock-clinician-v1,B,C,0.013,False,My recommendation is option B given the picture.
+42033_154156,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+10033_157235,mock-clinician-v1,B,C,0.013,False,My recommendation is option B given the picture.
+42275_128293,mock-clinician-v1,B,C,0.011,True,offline heuristic stand-in
+10032_140372,mock-clinician-v1,B,C,0.013,False,My recommendation is option B given the picture.
+10117_187023,mock-clinician-v1,C,C,0.011,True,offline heuristic stand-in
+10117_105150,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10029_132349,mock-clinician-v1,C,C,0.011,False,My recommendation is option C given the picture.
+10038_111115,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+40310_186361,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+40655_126002,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+41795_138132,mock-clinician-v1,C,C,0.012,True,offline heuristic stand-in
+10017_199207,mock-clinician-v1,B,C,0.012,False,My recommendation is option B given the picture.
+10059_142582,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+40277_127703,mock-clinician-v1,C,C,0.013,False,My recommendation is option C given the picture.
+41983_107689,mock-clinician-v1,B,C,0.012,True,offline heuristic stand-in
+10044_124073,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+40687_129273,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10130_156668,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10106_133283,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+40304_174997,mock-clinician-v1,B,C,0.012,False,My recommendation is option B given the picture.
+40177_198480,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+44228_103379,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10126_160445,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+43927_110958,mock-clinician-v1,B,C,0.011,True,offline heuristic stand-in
+10111_174739,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+43870_142633,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10069_146672,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10065_183314,mock-clinician-v1,B,C,0.012,False,My recommendation is option B given the picture.
+10027_199395,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+10124_182664,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10124_170883,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10124_170883_2,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+10083_134993,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+40286_109698,mock-clinician-v1,B,C,0.01,True,offline heuristic stand-in
+43798_130870,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+41976_172082,mock-clinician-v1,C,C,0.013,True,offline heuristic stand-in
+41976_172082_2,mock-clinician-v1,B,C,0.013,True,offline heuristic stand-in
+41976_180546,mock-clinician-v1,C,C,0.011,True,offline heuristic stand-in
+41976_179418,mock-clinician-v1,B,C,0.011,False,My recommendation is option B given the picture.
+41976_151798,mock-clinician-v1,B,C,0.012,True,offline heuristic stand-in

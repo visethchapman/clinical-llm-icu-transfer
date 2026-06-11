@@ -1,0 +1,60 @@
+patient_id,model,predicted_action,ground_truth_action,latency_s,parse_success,rationale
+42231_171878,claude-opus-4-8,B,C,3.882,True,"Stable labs, mild WBC rise; no vitals charted. Order morning labs and obtain vitals."
+10102_164869,claude-opus-4-8,B,C,3.405,True,No vitals charted; stable WBC/Hgb but declining platelets warrant morning labs and bedside vital signs.
+10076_198503,claude-opus-4-8,B,C,2.048,True,No vitals charted but labs reassuring; obtain routine labs and vitals to assess stability.
+43746_167181,claude-opus-4-8,B,C,1.843,True,"Stable labs, mild anemia and renal impairment; no vitals charted warrant assessment plus routine morning labs."
+43746_167181_2,claude-opus-4-8,C,C,3.568,True,"Elevated lactate, leukocytosis, metabolic acidosis, hyperkalemia, rising creatinine; no vitals charted—concern for sepsis/deterioration."
+44083_125157,claude-opus-4-8,B,C,6.06,True,No vitals charted; labs reassuring but need monitoring and morning labs to assess trends.
+44083_131048,claude-opus-4-8,A,C,3.407,True,"Labs largely normal except mild anemia; no vitals charted, but no acute instability indicated."
+44083_131048_2,claude-opus-4-8,A,C,3.795,True,"Stable labs, mild anemia only; no vitals charted—need bedside assessment before escalation, routine monitoring appropriate."
+44083_198330,claude-opus-4-8,C,C,1.639,True,Pericardial effusion with no monitoring data; risk of tamponade requires ICU escalation and assessment.
+10120_193924,claude-opus-4-8,C,C,3.175,True,"Lactate 15, anion gap 32, glucose 444, severe renal failure—critically ill, needs ICU."
+42199_178513,claude-opus-4-8,A,C,3.949,True,"Stable labs, mild abnormalities; absent vitals warrant assessment but no acute decompensation evident."
+10119_157466,claude-opus-4-8,C,C,3.423,True,No vitals charted for 12h in elderly septic patient; WBC 20.7 demands urgent reassessment and monitoring.
+10119_165436,claude-opus-4-8,B,C,3.689,True,"Stable GI bleed, mild hemoglobin drop, no hemodynamic instability; routine labs to trend appropriate."
+42281_195911,claude-opus-4-8,C,C,3.023,True,"Severe metabolic acidosis (pH 7.17, falling bicarbonate) with no vitals charted; GI bleed, thrombocytopenia warrant ICU."
+10104_177678,claude-opus-4-8,C,C,3.308,True,"GCS 4 with hypotension (MAP 57, SBP 89) and severe hyponatremia indicate critical instability."
+42135_102203,claude-opus-4-8,B,C,3.39,True,"Abnormal labs (renal failure, anemia, low bicarbonate) but stable; no vitals charted, obtain morning labs."
+43735_112662,claude-opus-4-8,C,C,3.16,True,"Hypotension admission with no vitals charted, acidemia, renal failure, anemia—needs ICU evaluation and monitoring."
+10035_110244,claude-opus-4-8,A,C,3.179,True,"Stable labs, elective carotid case, no vital sign abnormalities; routine monitoring appropriate."
+10045_126949,claude-opus-4-8,B,C,2.778,True,"Stable labs, mild abnormalities; no vitals charted—obtain morning labs and reassess for sepsis workup."
+42033_154156,claude-opus-4-8,A,C,2.252,True,Labs largely normal; no vitals charted but no abnormal data warranting ICU; continue monitoring.
+10033_157235,claude-opus-4-8,B,C,3.583,True,"Stable labs, mildly elevated potassium; no vitals charted. Recheck morning labs to trend electrolytes/renal function."
+42275_128293,claude-opus-4-8,C,C,2.271,True,Dyspnea admission with no vitals charted for 12 hours; cannot assess deterioration—need immediate evaluation and monitoring.
+10032_140372,claude-opus-4-8,B,C,2.495,True,"Stable pH, no vitals charted; obtain morning labs and ensure routine monitoring resumes for elderly fracture patient."
+10117_187023,claude-opus-4-8,C,C,3.426,True,"Febrile, neutropenic with worsening pancytopenia and bandemia; high sepsis risk, no vitals charted."
+10117_105150,claude-opus-4-8,C,C,4.306,True,Elevated lactate with acidosis suggests sepsis; no vitals charted for 12 hours is unsafe.
+10029_132349,claude-opus-4-8,C,C,3.938,True,"Septic shock: MAP 52, HR 128, fever 40, lactate 3.9, AKI, tachypnea—needs ICU."
+10038_111115,claude-opus-4-8,B,C,2.814,True,"Stable GCS 15, mildly abnormal labs warrant routine morning recheck; no acute instability requiring ICU."
+40310_186361,claude-opus-4-8,C,C,3.169,True,Lactate 5.3 with elevated anion gap signals serious metabolic derangement; no vitals charted—needs ICU evaluation.
+40655_126002,claude-opus-4-8,C,C,2.886,True,"Marked bandemia 20%, elevated WBC/lactate, severe azotemia indicate sepsis; no vitals charted warrants escalation."
+41795_138132,claude-opus-4-8,C,C,2.95,True,"Rising RR to 32, tachycardia 113, hypoxemia in COPD/asthma suggests impending respiratory failure."
+10017_199207,claude-opus-4-8,B,C,3.488,True,No vitals charted in 12 hours; obtain morning labs and vitals to assess stable patient.
+10059_142582,claude-opus-4-8,A,C,3.08,True,"Hemodynamically stable, normal GCS, stable vitals; renal/lab abnormalities expected, no signs of active rebleeding or deterioration."
+40277_127703,claude-opus-4-8,C,C,3.368,True,Severe hyponatremia (Na 119) with hypokalemia (K 3) plus intracranial hemorrhage; high seizure/herniation risk warrants ICU.
+41983_107689,claude-opus-4-8,C,C,4.106,True,"WBC 78.2 markedly elevated, suggesting possible leukemic process or severe infection requiring urgent evaluation."
+10044_124073,claude-opus-4-8,B,C,3.389,True,No vitals or labs charted in 12 hours; obtain baseline labs and resume monitoring for this high-risk patient.
+40687_129273,claude-opus-4-8,C,C,3.411,True,"Severe neutropenia, thrombocytopenia, acidosis (pH 7.27) with no vitals charted; high sepsis risk warrants ICU."
+10130_156668,claude-opus-4-8,A,C,3.519,True,"Stable vitals, improving HR, mild leukocytosis from abscess; no organ dysfunction warranting ICU or urgent labs."
+10106_133283,claude-opus-4-8,A,C,2.922,True,"Stable vitals, GCS 15, near-normal labs; routine monitoring appropriate for elevated but controlled BP."
+40304_174997,claude-opus-4-8,B,C,3.4,True,No vitals or labs charted in 12 hours; need baseline data to assess stability.
+40177_198480,claude-opus-4-8,C,C,3.277,True,"Cholangitis with rising creatinine, dropping Hgb, worsening metabolic acidosis suggests sepsis/shock; no vitals charted."
+44228_103379,claude-opus-4-8,C,C,1.986,True,"Cholangitis with leukocytosis 20, elevated lactate, no vitals charted—concern for sepsis warrants ICU evaluation."
+10126_160445,claude-opus-4-8,C,C,3.275,True,"Liver failure with rising lactate 7.4, falling hemoglobin 7.9, thrombocytopenia—signs of shock/bleeding requiring ICU."
+43927_110958,claude-opus-4-8,B,C,5.672,True,"Stable post-CABG labs; no vitals charted, obtain morning labs and ensure vital sign monitoring resumes."
+10111_174739,claude-opus-4-8,B,C,1.854,True,"Stable labs, normal lactate; no vitals charted. Order morning labs and obtain vitals."
+43870_142633,claude-opus-4-8,A,C,1.821,True,"No vitals charted; labs largely stable. Need bedside vitals assessment, not yet ICU escalation."
+10069_146672,claude-opus-4-8,B,C,8.635,True,No vitals charted; labs near-normal aside from mild hypernatremia. Need vitals and routine morning labs.
+10065_183314,claude-opus-4-8,B,C,2.088,True,"Stable labs, no vitals charted; obtain morning labs and vitals to reassess."
+10027_199395,claude-opus-4-8,C,C,3.686,True,"Post-cardiac surgery patient, no vital signs charted, dropping pH suggests acidosis; needs urgent assessment."
+10124_182664,claude-opus-4-8,A,C,3.731,True,"Stable labs, mild leukocytosis and anemia expected post-fracture; obtain vitals but no ICU indication."
+10124_170883,claude-opus-4-8,B,C,4.359,True,"Stable labs, mild renal impairment and hyponatremia; no vitals charted—obtain morning labs, continue monitoring."
+10124_170883_2,claude-opus-4-8,B,C,4.607,True,"Stable labs, low potassium and high bicarbonate; no vitals charted, order morning labs and check vitals."
+10083_134993,claude-opus-4-8,C,C,4.096,True,"Admitted hypotensive, no vitals charted, glucose spiked to 392, sodium dropping; needs ICU monitoring."
+40286_109698,claude-opus-4-8,B,C,3.584,True,No vitals or labs charted; order morning labs and obtain baseline assessment for elective hip patient.
+43798_130870,claude-opus-4-8,C,C,3.242,True,"Rising lactate, dropping pH suggest metabolic deterioration; no vitals charted is concerning."
+41976_172082,claude-opus-4-8,C,C,3.31,True,"Worsening hypotension (MAP 57), rising WBC, acidosis suggest sepsis requiring ICU escalation"
+41976_172082_2,claude-opus-4-8,C,C,5.223,True,"No vitals charted, rising WBC, acidemia (pH 7.33) in pneumonia patient warrants ICU evaluation."
+41976_180546,claude-opus-4-8,C,C,3.481,True,Sepsis with severe leukocytosis and dangerous hyperkalemia (6.2); no vitals charted—needs urgent escalation.
+41976_179418,claude-opus-4-8,C,C,3.87,True,Pneumonia with marked leukocytosis and no charted vitals for 12h; needs urgent assessment and monitoring.
+41976_151798,claude-opus-4-8,C,C,3.482,True,Markedly elevated WBC 30.2 with renal dysfunction in pyelonephritis suggests sepsis; no vitals charted—escalate.
