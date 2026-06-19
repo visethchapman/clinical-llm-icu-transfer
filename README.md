@@ -6,8 +6,10 @@ from a structured ward narrative and recommend ICU escalation **before** the
 transfer happens.
 
 Dataset: **MIMIC-III Clinical Database Demo v1.4** (100 patients, open access).
+The demo has **100 unique patients**; 47 had a ward→ICU transfer, yielding
+**59 ICU events** (some patients have bouncebacks or multiple admissions).
 
-## Key results (Claude Opus 4.8, 59 patients)
+## Key results (Claude Opus 4.8 · 59 ICU events, 47 unique patients)
 
 | Metric | Value |
 |---|---|

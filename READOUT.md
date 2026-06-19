@@ -5,7 +5,7 @@
 recommend escalation (action **C**) *before* the transfer occurs?
 
 **Dataset.** MIMIC-III Clinical Database Demo v1.4.
-**Model.** `claude-opus-4-8` (Anthropic SDK, single-turn, stateless). 59 patients,
+**Model.** `claude-opus-4-8` (Anthropic SDK, single-turn, stateless). 59 ICU events (47 unique patients),
 one independent API call each.
 
 ---
@@ -155,7 +155,7 @@ harness against any local/OSS model for that comparison.
 ### Reproduce
 
 ```bash
-python extract.py --target-n 100                       # -> extract.jsonl (59 patients)
+python extract.py --target-n 100                       # -> extract.jsonl (59 ICU events, 47 patients)
 export ANTHROPIC_API_KEY=sk-ant-...
 python benchmark.py --backend claude --claude-model claude-opus-4-8   # -> results.csv
 # open-source comparison (bonus), fully offline:
