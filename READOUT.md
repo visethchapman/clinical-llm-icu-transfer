@@ -27,12 +27,12 @@ patients who were all, in fact, transferred to ICU within the hour.
 
 ---
 
-## 2. The result has to be read through a one-class design
+## 2. The result has to be read through a single-class design
 
 Every cohort patient *was* transferred, so the ground-truth action is **C for
 all 59**. Consequently:
 
-- We can measure **sensitivity / recall** (did it catch the deterioration?) and
+- We can measure **recall (sensitivity)** (did it catch the deterioration?) and
   **nothing else** — there are no "stayed-on-the-floor" controls, so we cannot
   compute specificity or a false-positive rate.
 - A model that blindly answers **C** every time would score **100% recall** while
@@ -136,7 +136,7 @@ harness against any local/OSS model for that comparison.
    admissions) — `extract.py` scales to it unchanged.
 2. **ICU-biased charting** (§6) — ward vitals are structurally absent; lab-based
    signals are the reliable substrate. This persists on full MIMIC-III.
-3. **One-class design** (§2) — recall only; no specificity, no calibration.
+3. **Single-class design** (§2) — recall only; no specificity, no calibration.
 4. **Tiny N + patient overlap** — 59 events / 47 patients (5 patients contribute
    ≥2 admissions; 4 events are bounceback readmissions). CIs are wide; treat as
    directional.
